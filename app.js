@@ -5,7 +5,7 @@ var app = express();
 
 app.configure(function(){
     app.use(express.bodyParser());
-    app.listens(3000);
+    app.listen(3000);
 });
 
 app.get('/test', function(req, res) {
