@@ -9,7 +9,7 @@ app.configure(function(){
 });
 
 app.get('/test', function(req, res) {
-    res.status(200).send('!!!Awesome!');
+    res.status(200).send('!ok!!Awesome!');
 });
 
 app.use("/", express.static(path.join(__dirname, 'public')));
